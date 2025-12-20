@@ -9,9 +9,9 @@ This repository provides the implementation of Facial Core Anchoring Triangle (F
 
 ## 1. Repository Contents
 
-- `FCATtraincas.py` — training/evaluation script for **CAS(ME)?**
+- `FCATtraincas.py` — training/evaluation script for **CAS(ME)<sup>2</sup>**
 - `FCATtrain_samm.py` — training/evaluation script for **SAMM-LV**
-- `FCATcas_util.py` — utilities for CAS(ME)?
+- `FCATcas_util.py` — utilities for CAS(ME)<sup>2</sup>
 - `FCATsamm_util.py` — utilities for SAMM-LV
 - `requirements.txt` — required Python packages
 
@@ -34,12 +34,12 @@ pip install -r requirements.txt
 
 We evaluate Facial Core Anchoring Triangle: Enhancing Micro-Expression Spotting through Geometric Alignment on:
 
-- **CAS(ME)?**
+- **CAS(ME)<sup>2</sup>**
 - **SAMM-LV**
 
-**Data availability:** Due to copyright issues, the **SAMM-LV** and **CAS(ME)?** datasets used in this study cannot be provided directly. These datasets can be accessed through the following links:
+**Data availability:** Due to copyright issues, the **SAMM-LV** and **CAS(ME)<sup>2</sup>** datasets used in this study cannot be provided directly. These datasets can be accessed through the following links:
 
-- CAS(ME)? dataset: http://casme.psych.ac.cn/casme/c3  
+- CAS(ME)<sup>2</sup> dataset: http://casme.psych.ac.cn/casme/c3  
 - SAMM-LV dataset: https://helward.mmu.ac.uk/STAFF/M.Yap/dataset.php  
 
 Please obtain the datasets through the official channels and follow their terms of use.
@@ -48,7 +48,7 @@ Please obtain the datasets through the official channels and follow their terms 
 
 ## 4. Usage
 
-### 4.1 Run on CAS(ME)?
+### 4.1 Run on CAS(ME)<sup>2</sup>
 
 ```bash
 python FCATtraincas.py
@@ -68,7 +68,7 @@ The scripts report spotting performance (e.g., **F1-score**) in the terminal out
 
 Reported results in our manuscript:
 
-- CAS(ME)?: **F1-score = 0.4405**
+- CAS(ME)<sup>2</sup>: **F1-score = 0.4405**
 - SAMM-LV: **F1-score = 0.3381**
 
 (Results may vary slightly due to randomness and environment differences.)
