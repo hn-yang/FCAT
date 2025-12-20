@@ -64,7 +64,7 @@ If the scripts require dataset paths, please modify the dataset root path variab
 
 ## 5. Output & Evaluation
 
-The scripts report spotting performance (e.g., **F1-score**) in the terminal output and/or save results to local files depending on the script settings.
+The scripts report spotting performance (e.g., **F1-score**) in the terminal output and save results to local files depending on the script settings.
 
 Reported results in our manuscript:
 
@@ -81,7 +81,7 @@ FCAT includes three steps:
 
 1. **Face detection and alignment:** Detect facial key points per frame and align faces using a **facial core anchoring triangle** built from three stable points, then crop the facial region.
 
-2. **Feature extraction:** Select **13 ROIs** and extract **optical flow** features (main/secondary directions) to form temporal motion curves.
+2. **Feature extraction:** Select **13 ROIs** and extract **optical flow** features (main and secondary directions) to form temporal motion curves.
 
 3. **Expression spotting:** Denoise and smooth curves with a **low-pass filter** and **EMD**, then apply **NMS** to localize micro-expression segments.
 
