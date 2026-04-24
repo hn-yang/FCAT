@@ -92,9 +92,7 @@ FCAT includes three steps:
 
 If you use this code, please cite our manuscript:
 
-**[Henian Yang, Shucheng Huang, Hualong Yu]**, “Facial Core Anchoring Triangle: Enhancing Micro-Expression Spotting through Geometric Alignment,” submitted to *The Visual Computer*.
-
-(BibTeX will be provided after publication.)
+Yang, H., Huang, S. & Yu, H. Facial core anchoring triangle: enhancing micro-expression spotting through geometric alignment. Vis Comput 42, 266 (2026). https://doi.org/10.1007/s00371-026-04481-3
 
 
 
