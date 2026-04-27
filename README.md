@@ -99,16 +99,15 @@ If you use this code in your research, please cite our paper:
 You can use the following BibTeX entry:
 
 ```bibtex
-@article{Yang2026Facial,
-  title   = {Facial core anchoring triangle: enhancing micro-expression spotting through geometric alignment},
-  author  = {Yang, Henian and Huang, Shucheng and Yu, Hualong},
-  journal = {The Visual Computer},
-  volume  = {42},
-  pages   = {266},
-  year    = {2026},
-  publisher = {Springer},
-  doi     = {10.1007/s00371-026-04481-3},
-  url     = {[https://doi.org/10.1007/s00371-026-04481-3](https://doi.org/10.1007/s00371-026-04481-3)}
+@article{yang2026facial,
+  title={Facial core anchoring triangle: enhancing micro-expression spotting through geometric alignment: H. Yang et al.},
+  author={Yang, Henian and Huang, Shucheng and Yu, Hualong},
+  journal={The Visual Computer},
+  volume={42},
+  number={7},
+  pages={266},
+  year={2026},
+  publisher={Springer}
 }
 
 
